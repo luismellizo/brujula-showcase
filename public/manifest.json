@@ -1,0 +1,33 @@
+{
+  "name": "Radio Demo 100.0 FM",
+  "short_name": "Radio Demo",
+  "description": "Escucha Radio Demo 100.0 FM en vivo. ¡Tu Norte con sentido!",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A1530",
+  "theme_color": "#0A1530",
+  "lang": "es",
+  "categories": ["music", "entertainment"],
+  "icons": [
+    {
+      "src": "/assets/logo.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "maskable"
+    }
+  ]
+}

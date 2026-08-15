@@ -1,0 +1,27 @@
+{
+  "name": "radio-fm-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "fuser -k 3000/tcp 2>/dev/null || true",
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "framer-motion": "^12.40.0",
+    "lucide-react": "^1.17.0",
+    "next": "16.2.6",
+    "pocketbase": "^0.27.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
